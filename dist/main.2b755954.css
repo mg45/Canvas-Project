@@ -1,0 +1,150 @@
+/*----------------------------------------
+  Google Fonts
+----------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+/*
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+*/
+/*----------------------------------------
+  Default Styles
+----------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.25em;
+}
+
+h2, p {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+/* colors:
+#202124
+#4a4a4a
+#f7f7f7
+#fff
+*/
+/* Hero Section */
+section:nth-of-type(1) {
+  background: url(/titel-bild.a49b8b1c.jpg) center/cover no-repeat;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Greate Ideas Section*/
+section:nth-of-type(2) {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15%;
+}
+
+section:nth-of-type(2) > div:nth-of-type(1) {
+  width: 40%;
+  height: 90vh;
+  text-align: center;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-of-type(2) h2, p {
+  margin-bottom: 4%;
+}
+
+/* Meet the team Section */
+section:nth-of-type(3) {
+  background-color: #f7f7f7;
+  padding-bottom: 8%;
+}
+
+section:nth-of-type(3) > div:nth-of-type(1) {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.grid-artists {
+  display: grid;
+  gap: 2.5em;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+  grid-auto-rows: 448px;
+  margin: 5% 10%;
+}
+
+.grid-artists div:nth-of-type(1) {
+  background: url(/img_3.432509b4.jpg) center/cover no-repeat;
+}
+
+.grid-artists div:nth-of-type(2) {
+  background: url(/img_4.bd3fe6e0.jpg) center/cover no-repeat;
+}
+
+.grid-artists div:nth-of-type(3) {
+  background: url(/img_5.00763f02.jpg) center/cover no-repeat;
+}
+
+.grid-artists div:nth-of-type(4) {
+  background: url(/img_6.455acdbf.jpg) center/cover no-repeat;
+}
+
+.grid-artists div:nth-of-type(5) {
+  background: url(/img_7.fb287cfc.jpg) center/cover no-repeat;
+}
+
+.grid-artists div:nth-of-type(6) {
+  background: url(/img_8.0bca303d.jpg) center/cover no-repeat;
+}
+
+.grid-artists div:nth-of-type(7) {
+  background: url(/img_9.fa4cdffe.jpg) center/cover no-repeat;
+}
+
+.grid-artists div:nth-of-type(8) {
+  background: url(/img_10.8cb0027e.png) center/cover no-repeat;
+}
+
+.grid-artists div:nth-of-type(9) {
+  background: url(/img_11.8ff5e67f.png) center/cover no-repeat;
+}
+
+/* collaborating Section */
+section:nth-of-type(4) {
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+  padding: 25% 0;
+}
+
+
+
+/*# sourceMappingURL=main.css.map */
+
+
+/*# sourceMappingURL=/main.2b755954.css.map */

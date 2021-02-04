@@ -1,0 +1,29 @@
+{
+  "name": "canvas-project",
+  "version": "1.0.0",
+  "description": "canvas-project",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mg45/Canvas-Project.git"
+  },
+  "keywords": [
+    "scss",
+    "form",
+    "aos"
+  ],
+  "author": "ldb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mg45/Canvas-Project/issues"
+  },
+  "homepage": "https://github.com/mg45/Canvas-Project#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
